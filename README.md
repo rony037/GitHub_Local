@@ -51,4 +51,24 @@ Branching is an essential feature in Git that allows you to create separate line
 - `git branch -d [branch-name]`: Delete the specified branch.
 - `git branch -D [branch-name]`: Force delete the specified branch.
 
+## Detailed Commands
+
+### `git pull`
+The `git pull` command is used to fetch and integrate changes from a remote repository into your current branch. It is a combination of `git fetch` and `git merge`.
+
+```sh
+git pull [remote] [branch]
+```
+
+### Creating a Pull Request
+A pull request allows you to notify others about changes you've pushed to a branch in a repository on GitHub. Here's how to create a pull request:
+
+1. Push your changes to a branch in your repository.
+2. Go to the repository on GitHub.
+3. Click on the "Pull requests" tab.
+4. Click the "New pull request" button.
+5. Select the branch you want to merge into the base branch.
+6. Add a title and description for your pull request.
+7. Click "Create pull request".
+
 By mastering these commands, you'll be well on your way to becoming proficient with Git and GitHub.
