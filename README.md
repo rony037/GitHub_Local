@@ -13,6 +13,7 @@ GitHub is a web-based platform used for version control and collaborative softwa
 GitHub is widely used by developers and organizations to host open-source projects, contribute to others' projects, and manage private repositories for proprietary software.
 
 For more information, visit [GitHub's official website](https://github.com).
+
 ## Getting Started with GitHub
 
 To get started with GitHub, follow these steps:
@@ -37,5 +38,17 @@ Here are some basic Git commands to help you get started:
 - `git pull`: Fetch and merge changes from the remote repository.
 - `git status`: Check the status of your repository.
 - `git log`: View the commit history.
+
+## Git Branch Commands
+
+Branching is an essential feature in Git that allows you to create separate lines of development. Here are some basic Git branch commands:
+
+- `git branch`: List all branches in your repository.
+- `git branch [branch-name]`: Create a new branch.
+- `git checkout [branch-name]`: Switch to the specified branch.
+- `git checkout -b [branch-name]`: Create and switch to a new branch.
+- `git merge [branch-name]`: Merge the specified branch into the current branch.
+- `git branch -d [branch-name]`: Delete the specified branch.
+- `git branch -D [branch-name]`: Force delete the specified branch.
 
 By mastering these commands, you'll be well on your way to becoming proficient with Git and GitHub.
